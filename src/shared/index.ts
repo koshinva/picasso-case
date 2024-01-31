@@ -1,1 +1,2 @@
-export { instancePlaceholder } from './api/axiosInstance';
+export { sliceText } from './lib/helpers';
+export { generateUrlPost } from './lib/generateUrl';

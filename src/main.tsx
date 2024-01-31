@@ -1,17 +1,5 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
+import '@shared/assets/index.css';
 import App from '@app/index';
-// import '@/shared/assets/index.css';
-import { BrowserRouter } from 'react-router-dom';
-import { Provider } from 'react-redux';
-import { store } from '@widgets/PostList/model/store';
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <BrowserRouter>
-    <Provider store={store}>
-      <React.StrictMode>
-        <App />
-      </React.StrictMode>
-    </Provider>
-  </BrowserRouter>
-);
+ReactDOM.createRoot(document.getElementById('root')!).render(<App />);

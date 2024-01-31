@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/koshinva/picasso-case",
+  "homepage": "https://koshinva.github.io/picasso-case",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

@@ -1,11 +1,8 @@
 import { useMemo } from 'react';
 import { useDispatch } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { getAllPosts } from '../../model/actions';
 
-const allActions = {
-  getAllPosts,
-};
+const allActions = {};
 
 export const useActions = () => {
   const dispatch = useDispatch();

@@ -4,7 +4,7 @@ import { Layout } from '@pages/layouts';
 
 export const RouterProvider = () => {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<MainPage />} />
